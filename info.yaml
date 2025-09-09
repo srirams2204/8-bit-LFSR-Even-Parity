@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "Even Parity 8 bit LFSR Sequencer"      # Project title
-  author:       "Sriram.S"      # Your name
+  author:       "Sriram.S,Vigneshwaran B, Pratik Prashant Barge, PS Sriharivasan "      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "A compact 8-bit LFSR module with even parity output, wrapped in Tiny Tapeout format for simulation and tapeout-ready integration."      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
