@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This project implements a compact pseudo-random number generator using a 7-bit Linear Feedback Shift Register (LFSR). The LFSR cycles through a maximal-length sequence of 127 unique states, driven by taps at bit positions 6 and 5. To enhance the output, a parity bit is computed and appended as the MSB, ensuring even parity across the full 8-bit output. This makes the design suitable for simple error detection or structured test vector generation.
+This project implements a compact pseudo-random number generator using a 8-bit Linear Feedback Shift Register (LFSR). The LFSR cycles through a maximal-length sequence of 127 unique states, driven by taps at bit positions 6 and 5. To enhance the output, a parity bit is computed and appended as the MSB, ensuring even parity across the full 8-bit output. This makes the design suitable for simple error detection or structured test vector generation.
 The module is clocked synchronously and resettable. On each rising edge of the clock, the LFSR shifts and updates its state, while the parity bit is recalculated combinatorially.
 
 ## How to test
